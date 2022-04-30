@@ -1,11 +1,12 @@
 # Voting-system
-Flow Chart 15
+
 Project Analysis
 This Project contains socket programming  for voting system . Here, the client establishes a 
 connection with the server, this implies that the TCP protocol is being used. The Server should allocate a new thread for 
 every new incoming Client, to accomplish this feature we took care of concurrent thread, that is , when the number of 
 connections are made with the server, that time each thread doesn’t interfere with one another. Therefore, we 
 synchronized the threads.
+
 ❖ Design and Implementation :
 1. A secure server that only allows clients with authentic names and passwords to cast votes.
 2. Server checks for authenticity of the client & also checks if client has already voted. It returns a message to the 
@@ -17,12 +18,16 @@ client according to the security check.
 provided by the server.
 7. The system (server) can handle multiple clients and creates a new thread for each of them.
 8. One client can cast a vote once and only once.
+
+
 Requirements
 Python Libraries Required :
 ➔ Pandas
 ➔ Tkinter
 ➔ Socket
 ➔ Subprocess
+
+
 Tools Used
 ➢ Programming : Python
 ➢ Connection : Socket Programming
@@ -31,6 +36,8 @@ Tools Used
 ➢ Data Storage : Using CSV files
 ➢ Data Updates : python-pandas
 ➢ OS Calls : python-subprocess
+
+
 How to Run
 1. Open terminal/command prompt on your PC.
 2. Navigate to ‘Voting’ folder
@@ -39,14 +46,17 @@ How to Run
 5. Login into Admin using given details in ‘How to Login’ part.
 6. Click on the ‘Run Server’ Button.
 7. Use the rest of the Buttons as per your need.
+
+
 How to Login
 ❖ Admin Login :
-➔ Admin ID : Admin ➔ Password : 
-admin
+➔ Admin ID : Admin ➔ Password : admin
 ❖ Voter Login:
 ❏ Server should be running for voters to be able to login.
 ➔ Already registered voter I.Ds : 10001 to 10005
 ➔ Password (for already registered voters) : abcd
+
+
 Workflow Description
 ❖ Inorder Description to run & test this project :
 1. Open terminal & run python homePage.py to open Home Page Window.
